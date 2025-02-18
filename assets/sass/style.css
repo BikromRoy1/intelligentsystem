@@ -403,7 +403,7 @@ p {
   line-height: 1.87;
   display: inline-block;
   margin-bottom: 14px;
-  background: rgba(14, 89, 242, 0.1019607843);
+  background: rgb(14 230 242 / 10%);
   padding: 1px 25px;
   border-radius: 10px;
 }
@@ -1040,7 +1040,7 @@ p {
   --btn-white: #FFFFFF;
   --border-white: #FFFFFF;
   --black: #000000;
-  --primary-color-1: #0E59F2;
+  --primary-color-1: #25B7D3;
   --primary-color-2: #F8E559;
   --primary-color-3: #406AFF;
   --bg-heading-color: #051634;
@@ -1051,7 +1051,7 @@ p {
   --dark-two: #222429;
   --color-1: #F4F7FB;
   --color-2: #737373;
-  --color-3: #0B46BF;
+  --color-3: #0893af;
   --color-4: #CCCCCC;
   --color-5: #12223e;
   --color-6: #864af942;
