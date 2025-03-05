@@ -3068,7 +3068,7 @@ p {
 ==========================================================================*/
 .top__bar {
   background: var(--bg-heading-color);
-  padding: 13px 0;
+  padding: 13px 30px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -3081,7 +3081,7 @@ p {
 }
 .top__bar-left a {
   font-size: 18px;
-  margin-right: 27px;
+  margin-right: 2px;
   text-transform: lowercase;
   color: var(--text-heading-color);
   color: var(--text-white);
@@ -4127,10 +4127,16 @@ p {
   .banner__three-content h2 {
     font-size: 50px;
   }
+  .banner__three {
+    padding: 0px 0;
+  }
 }
 @media (max-width: 359px) {
   .banner__three-content h2 {
     font-size: 43px;
+  }
+   .banner__three {
+    padding: 0px 0;
   }
 }
 /*==========================================================================
@@ -6671,7 +6677,6 @@ p {
   padding: 25px 35px;
   background: var(--bg-white);
   border-radius: 15px;
-  margin-right: 24px;
 }
 .why-choose-us__three-bottom-card-content {
   display: flex;
@@ -10643,4 +10648,8 @@ p {
   .tp-service-2-bg-shape3 {
     display: none;
   }
+}
+
+.top-z-index{
+  z-index: 1;
 }
