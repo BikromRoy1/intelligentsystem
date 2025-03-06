@@ -357,8 +357,9 @@
   var swiper = new Swiper('.banner__three-slider', {
     slidesPerView: 1,
     loop: true,
-    speed: 800,
+    speed: 1500,
     effect: 'fade',
+    autoplay: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -528,4 +529,49 @@
   ////////////////////////////////////////////////////
   // 21. Wow Js
   new WOW().init();
+
+  // slider all js
+  const sliderswiper = new Swiper('.tp-slider-active', {
+    // Optional parameters
+    speed: 1500,
+    loop: true,
+    slidesPerView: 1,
+    autoplay: true,
+    effect: 'fade',
+    breakpoints: {
+      1600: {
+        slidesPerView: 1,
+      },
+      1400: {
+        slidesPerView: 1,
+      },
+      1200: {
+        slidesPerView: 1,
+      },
+      992: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 1,
+      },
+      576: {
+        slidesPerView: 1,
+      },
+      0: {
+        slidesPerView: 1,
+      },
+
+      a11y: false,
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.slider-next',
+      prevEl: '.slider-prev',
+    },
+
+    pagination: {
+      el: '.tp-slider-dots',
+      clickable: true,
+    },
+  });
 })(jQuery);
