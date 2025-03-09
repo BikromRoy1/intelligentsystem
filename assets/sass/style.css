@@ -10929,3 +10929,8 @@ p {
 .tp-slider-btn-box .btn-two:hover i {
   color: var(--text-white);
 }
+/* custom css files*/
+.custom-font-size{
+  font-size: 17px !important;
+  line-height: 25px !important;
+}
