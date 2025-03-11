@@ -9455,7 +9455,7 @@ p {
   position: relative;
 }
 .technology-solution__one-image-wrapper {
-  padding: 0 20px;
+  padding: 0 0px;
 }
 .technology-solution__one-content h2 {
   text-transform: none;
@@ -11034,7 +11034,7 @@ p {
   margin-bottom: 30px;
   line-height: 26px;
 }
-.project-live{
+.project-live {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -11042,4 +11042,56 @@ p {
 }
 .project-live a {
   padding: 14px 40px !important;
+}
+.custom-background {
+  background: var(--color-1);
+}
+.project-wrapper {
+  border-radius: 16px;
+  background: linear-gradient(270deg, #fffaef 7.29%, #fff 105.16%);
+}
+.project-number {
+  font-size: 24px;
+  font-weight: 700;
+  width: 96px;
+  height: 69px;
+  line-height: 65px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.project-color-1 {
+  color: #d1a959;
+  background: #fff8e9;
+}
+.project-color-2 {
+  background-color: #dbfcff;
+  color: #5eb8bf;
+}
+.project-color-3 {
+  background-color: #fff2f7;
+  color: #e597b4;
+}
+.project-color-4 {
+  background-color: #ddfff5;
+  color: #6bc6ad;
+}
+.project-wrapper-title {
+  margin-bottom: 20px;
+}
+.project-wrapper-2 {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #ffffff -0.81%, #d8fcff 105.16%);
+  border-radius: 16px;
+}
+.project-wrapper-3 {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #fff6fa 7.29%, #ffffff 105.16%);
+  border-radius: 16px;
+}
+.project-wrapper-4 {
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #ffffff -0.81%, #e2fff7 105.16%);
+  border-radius: 16px;
 }
